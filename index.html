@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anudharshini.I  - Digital Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <h2>Anudharshini.I</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#sports">Sports</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- HOME -->
+  <section id="home">
+    <div class="home-container">
+      <!-- Profile photo from Google Drive -->
+      <img src="https://drive.google.com/uc?export=view&id=YOUR_FILE_ID" 
+           alt="Anudharshini.I" class="profile-photo">
+
+      <div>
+        <h1>Hi, I'm <span style="color:#facc15;">Anudharshini.I</span></h1>
+        <p class="typing" id="typing"></p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.sc computer science 2nd year student at Sri Aravindar Arts and Science College (Annamalai University). 
+       I am passionate about technology, web development, and also love sports like Karate.</p>
+  </section>
+  
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">GitHub</div>
+    </div>
+  </section>
+  
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificates">
+      <div class="certificate" onclick="openModal('Python Certificate')">Python Basics</div>
+      <div class="certificate" onclick="openModal('Web Development Certificate')">Web Development</div>
+      <div class="certificate" onclick="openModal('cricket Achievement')">cricket</div>
+    </div>
+  </section>
+  
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p>Download or view certificate here.</p>
+      <a href="#" download style="color:#38bdf8;">Download</a>
+    </div>
+  </div>
+  
+  <!-- SPORTS -->
+  <section id="sports">
+    <h2>Sports Interests</h2>
+    <div class="sports">
+      <img src="https://via.placeholder.com/200" alt="cricket">
+      <img src="https://via.placeholder.com/200" alt="Football">
+    </div>
+  </section>
+  
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="mailto:ianudharshini@gmail.com">📧 Gmail</a>
+      <a href="https://wa.me/8925661019">💬 WhatsApp</a>
+      <a href="https://github.com/yourgithub">🐙 GitHub</a>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Anudhrishni.I. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
